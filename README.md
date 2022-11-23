@@ -12,4 +12,4 @@ Number of Attributes:  First 10 columns are numeric predictive values
 Target:                Column 11 is a quantitative measure of disease progression one year after baseline
 Attribute Information: Age - Sex - Body mass index - Average blood pressure - S1 - S2 - S3 - S4 - S5 - S6
 
-Note: Each of these 10 feature variables have been mean centered and scaled by the standard deviation times n-samples (i.e. the sum of squares of each column totals 1).
+Note: Each of these 10 feature variables have been mean centered and scaled by the standard deviation times n_samples (i.e. the sum of squares of each column totals 1).
