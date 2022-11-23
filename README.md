@@ -7,10 +7,12 @@ Current practice in hospital is to collect required information for diabetes dia
 Ten baseline variables, age, sex, body mass index, average blood pressure, and six blood serum measurements were obtained for each diabetes patients, a quantitative measure of disease progression one year after baseline.
 
 Attribute Information:
-      Age    :  age in years
-      Gender :  male or female     
-      BMI    :  body mass index
-      BP     :  average blood pressure
+      
+      Age    :  age in years,
+      Gender :  male or female,     
+      BMI    :  body mass index,
+      BP     :  average blood pressure,
+      
       s1     :  tc, T-Cells (a type of white blood cells)
       s2     :  ldl, low-density lipoproteins
       s3     :  hdl, high-density lipoproteins
@@ -18,4 +20,4 @@ Attribute Information:
       s5     :  ltg, lamotrigine
       s6     :  glu, blood sugar level
      
-Note: Each of these 10 feature variables have been mean centered and scaled by the standard deviation times 'n_samples' (i.e. the sum of squares of each column totals 1)           
+Note: Each of these 10 feature variables have been mean centered and scaled by the standard deviation times 'n_samples' (i.e. the sum of squares of each column totals 1)          
